@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Montserrat:wght@300;400;600;900&display=swap');
+
+body {
+    background-color: #D5FFF3;
+    margin: 30px;
+    font-weight: 400;
+}
+
+.main {
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1020px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar {
+    border-radius: 20px 20px 0 0;
+    min-height: 80px;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.bek-image {
+    max-height: 300px;
+    max-width: 100%; 
+    height: auto;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #993955;
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+h2 {
+    color: #4E878C;
+}
+
+p {
+    color: #002642;
+    margin: 30px; 
+    text-align: justify;
+}
+
+.table {
+    width: 80%;
+    margin: 0 auto;
+    color: #002642;
+}
+
+/* below code NOT overwriting default colour? */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: coral!important;
+}
+
+footer {
+    background-color: #D58936;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000;
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+}
+
+img {
+    border: 5px solid #993955;
+}
+
+a {
+    color: #993955;
+    text-decoration: none;
+}
+
+/* Must use !important to overwrite black default text colour */
+ul li a {
+    color: #fff !important;
+    text-shadow: 1px 1px 3px #000;
+}
